@@ -1,0 +1,58 @@
+/* Variables  */
+/* Thems  Start */
+body{
+    --bgColor:#003580;
+    --white:#fff;
+    --green:#008009;
+    --yellow:#febb02;
+    --secTextColor:#afaeae;
+    --btnColor:#0071c2;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
+  body.theme1 {
+    --bgColor: #222;
+    --mainColor: var( --white)5733;
+    --coverColor: linear-gradient(45deg, var( --white)5733, #D64124);
+  }
+  body.theme2 {
+    --bgColor: #333;
+    --mainColor: #55D6BE;
+    --coverColor: linear-gradient(45deg, #55D6BE, #389E8A);
+  }
+  body.theme3 {
+    --bgColor: #1A1A1A;
+    --mainColor: var( --white)A500;
+    --coverColor: linear-gradient(45deg, var( --white)A500, var( --white)6600);
+  }
+  body.theme4 {
+    --bgColor: #2E0854;
+    --mainColor: var( --white)00FF;
+    --coverColor: linear-gradient(45deg, var( --white)00FF, #9400D3);
+  }
+  body.theme5 {
+    --bgColor: #121212;
+    --mainColor: #E84D49;
+    --coverColor: linear-gradient(45deg, #E84D49, var( --white)7A75);
+  }
+  body.theme6 {
+    --bgColor: #262626;
+    --mainColor: var( --white)D700;
+    --boderColor: .125rem solid var(--mainColor);
+  }
+  body.theme7 {
+    --bgColor: #1C2331;
+    --mainColor: var( --white)6B6B;
+    --coverColor: linear-gradient(45deg, var( --white)6B6B, var( --white)C3A0);
+  }
+  body.theme8 {
+    --bgColor: #1D2671;
+    --mainColor: var( --white)5733;
+    --coverColor: linear-gradient(45deg, var( --white)5733, var( --white)B347);
+  }
+  body.theme9{
+    --bgColor: #3E2723;
+    --mainColor: var( --white)9800;
+    --borderColor:  .125rem solid var( --white)9800 !important;
+    --coverColor: linear-gradient(45deg, var( --white)9800, var( --white)B74D);
+  }

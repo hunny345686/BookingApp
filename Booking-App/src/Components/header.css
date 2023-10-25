@@ -1,0 +1,182 @@
+.navbar{
+    height: 50px;
+    background-color: var(--bgColor);
+    display: flex;
+    justify-content: center;
+}
+.navContainer{
+    width: 100%;
+    max-width: 1024px;
+    color: var( --white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-weight: 500;
+}
+.navItems{display: flex; align-items:center;gap: 20px;}
+.navButton{
+  color: var(--bgColor);
+  border: none;
+  padding: 7px 13px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+/* Header Css */
+
+.header{
+    background-color: var(--bgColor);
+    display: flex;
+    justify-content: center;
+    color: var( --white);
+    position: relative;
+}
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0 100px 0;
+}
+
+.headerContainer.listMode {
+    margin: 20px 0px 0px 0px;
+  }
+.headerList{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+.headerListItem{
+    display: flex;
+    align-items:center;
+    gap: 10px;
+}
+.headerListItem.active{
+    border:1px solid var( --white);
+    padding: 10px;
+    border-radius: 10px;
+}
+.headerDesc{
+    margin: 20px 0;
+}
+.headerBtn {
+    background-color: var( --btnColor);
+    color: var(--white);
+    font-weight: 500;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+
+  .headerSearch {
+    height: 30px;
+    background-color: var( --white);
+    border: 5px solid var( --yellow);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+  }
+  
+  .headerIcon {
+    color: lightvar( --secTextColor);
+  }
+  .headerSearchItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .headerSearchInput {
+    border: none;
+    outline: none;
+    padding: 10px 0px;
+  }
+  
+  .headerSearchText {
+    color: var( --secTextColor);
+    padding: 10px 0px;
+    cursor: pointer;
+  }
+  
+  .date {
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+  }
+  
+  .options {
+    z-index: 2;
+    position: absolute;
+    top: 50px;
+    background-color: var( --white);
+    color: var( --secTextColor);
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  }
+  
+  .optionItem {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  
+  .optionCounter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: black;
+  }
+  
+  .optionCounterButton {
+    width: 30px;
+    height: 30px;
+    border: 1px solid var( --btnColor);
+    color: var( --btnColor);
+    cursor: pointer;
+    background-color: var( --white);
+  }
+  
+  .optionCounterButton:disabled {
+    cursor: not-allowed;
+  }
+
+  /* Footer CSS */
+
+  .footer{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footerContainer{
+    width: 100%;
+    max-width: 1024px;
+  }
+  .fLists{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  
+  .fList{
+    list-style: none;
+    padding: 0;
+  }
+  
+  .fListItem{
+    margin-bottom: 10px;
+    color: var(--bgColor);
+    cursor: pointer;
+  }

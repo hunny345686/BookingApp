@@ -1,0 +1,146 @@
+.featured{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+  }
+  
+  .featuredItem{
+    position: relative;
+    color: var( --white);
+    border-radius: 10px;
+    overflow: hidden;
+    height: 250px;
+    flex:1
+  }
+  
+  .featuredImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .featuredTitles{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+
+  /* Property List  ==========*/
+
+  .pList{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .pListItem{
+    flex:1;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .pListImg{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .pListTitles>h1{
+    font-size: 18px;
+    color: #444;
+    text-transform: capitalize;
+  }
+  
+  .pListTitles>h2{
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  /*  FeaturedProperties CSS ===============*/
+
+  .fp {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .fpItem{
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fpImg{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .fpName{
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .fpCity{
+    font-weight: 300;
+  }
+  
+  .fpPrice{
+    font-weight: 500;
+  }
+  
+  .fpRating>button{
+    background-color: var(--bgColor);
+    color: var( --white);
+    border: none;
+    padding: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .fpRating>span{
+    font-size: 14px;
+  }
+
+
+  /* Mail List CSS======== */
+
+  .mail{
+    width: 100%;
+    margin-top: 50px;
+    background-color: var(--bgColor);
+    color: var( --white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+  }
+  
+  .mailInputContainer>input{
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .mailInputContainer>button{
+    height: 50px;
+    background-color: var( --btnColor);
+    color: var( --white);
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
