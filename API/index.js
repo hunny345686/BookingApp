@@ -10,7 +10,7 @@ import cookieParser from "cookie-parser";
 import cors from "cors";
 
 dotEnv.config();
-
+app.use(cors());
 // DB Connection
 const connect = async () => {
   try {
@@ -21,7 +21,7 @@ const connect = async () => {
   }
 };
 // Middelware===============
-app.use(cors());
+
 app.use(express.json());
 app.use(cookieParser());
 app.use("/api/auth", authRouter);
