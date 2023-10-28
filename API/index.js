@@ -7,6 +7,7 @@ import roomsRouter from "./routes/rooms.js";
 import hotelsRouter from "./routes/hotels.js";
 import usersRouter from "./routes/users.js";
 import cookieParser from "cookie-parser";
+var cors = require("cors");
 
 dotEnv.config();
 
@@ -20,6 +21,7 @@ const connect = async () => {
   }
 };
 // Middelware===============
+app.use(cors());
 app.use(express.json());
 app.use(cookieParser());
 app.use("/api/auth", authRouter);
