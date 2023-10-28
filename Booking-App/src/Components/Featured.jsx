@@ -3,7 +3,7 @@ import useFatch from "../Hooks/useFatch";
 
 const Featured = () => {
   const { data, loading, error } = useFatch(
-    "/api/hotels/countByCity?cities=Goa,Bangalore,Delhi"
+    "api/hotels/countByCity?cities=Goa,Bangalore,Delhi"
   );
 
   return (

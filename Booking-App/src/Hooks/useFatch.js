@@ -5,6 +5,7 @@ const useFetch = (url) => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
+  url = `https://booking-app-8kr6.onrender.com/${url}`;
 
   useEffect(() => {
     const fetchData = async () => {
