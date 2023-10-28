@@ -7,7 +7,7 @@ import roomsRouter from "./routes/rooms.js";
 import hotelsRouter from "./routes/hotels.js";
 import usersRouter from "./routes/users.js";
 import cookieParser from "cookie-parser";
-var cors = require("cors");
+import cors from "cors";
 
 dotEnv.config();
 
